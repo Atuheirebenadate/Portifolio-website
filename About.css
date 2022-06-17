@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Scan',scans_serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.hero{
+    height: 100vh;
+    /* background-image: url("background.jpeg"); */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 130%
+    
+} 
+.logo{
+    color:rgb(238, 223, 223);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 90px;
+    
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:rgb(232, 222, 222);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hoover{
+    color: #f9004d;
+    transition: 4s;
+}
+.ben{
+    color: white;
+}
