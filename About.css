@@ -53,4 +53,8 @@ nav ul li a:hoover{
 }
 .ben{
     color: white;
+    text-align: center;
+}
+.gallery{
+    position: absolute; bottom: 200px; left: 700px; font-size: 18px;
 }
